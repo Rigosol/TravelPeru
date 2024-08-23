@@ -7,11 +7,16 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px 20px;
+  padding: 5px 10px; /* Reducido el padding */
   background-color: white;
   border-bottom: 2px solid #ddd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -20,18 +25,19 @@ header {
 }
 
 .logo img {
-  max-width: 50px;
+  max-width: 40px; /* Reducido el tamaño de la imagen */
   margin-right: 10px;
 }
 
 .menu-container {
   display: flex;
   justify-content: center;
+  flex: 1;
 }
 
 .menu-item {
-  margin: 0 5px;
-  padding: 10px 20px;
+  margin: 0 5px; /* Reducido el margen */
+  padding: 5px 10px; /* Reducido el padding */
   background-color: #FFC800;
   color: #000;
   text-decoration: none;
@@ -50,14 +56,19 @@ header {
 
 .search-bar input {
   padding: 5px;
-  border-radius: 20p nombrex;
+  border-radius: 20px;
   border: 1px solid #ddd;
+  padding-left: 10px;
 }
 
 .search-bar input[type="text"] {
   padding-left: 10px;
 }
 
-.search-bar button {
-  display: none; /* Si deseas un botón de búsqueda, puedes agregarlo */
+/* Asegúrate de que el menú se mantenga centrado incluso en pantallas más grandes */
+.menu-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
 }
+

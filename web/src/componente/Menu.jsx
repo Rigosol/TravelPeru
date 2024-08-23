@@ -16,7 +16,7 @@ function Menu() {
         <a href="#" className="menu-item">Contacto</a>
       </div>
       <div className="search-bar">
-      t  <input type="text" placeholder="Buscar" />
+        <input type="text" placeholder="Buscar" />
       </div>
     </header>
   );
