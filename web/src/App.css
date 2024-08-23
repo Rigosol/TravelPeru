@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 10px; /* Reducido el padding */
+  padding: 5px 10px;
   background-color: white;
   border-bottom: 2px solid #ddd;
   position: fixed;
@@ -25,7 +25,7 @@ header {
 }
 
 .logo img {
-  max-width: 40px; /* Reducido el tamaño de la imagen */
+  max-width: 40px;
   margin-right: 10px;
 }
 
@@ -36,8 +36,8 @@ header {
 }
 
 .menu-item {
-  margin: 0 5px; /* Reducido el margen */
-  padding: 5px 10px; /* Reducido el padding */
+  margin: 0 5px;
+  padding: 5px 10px;
   background-color: #FFC800;
   color: #000;
   text-decoration: none;
@@ -46,7 +46,7 @@ header {
 }
 
 .menu-item:hover {
-  background-color: #FF00FF; /* Color rosa al pasar el mouse */
+  background-color: #FF00FF;
 }
 
 .search-bar {
@@ -65,10 +65,47 @@ header {
   padding-left: 10px;
 }
 
-/* Asegúrate de que el menú se mantenga centrado incluso en pantallas más grandes */
 .menu-container {
   flex-grow: 1;
   display: flex;
   justify-content: center;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 80vh; /* Cambiado a 80% del alto del viewport */
+  margin: 0;
+  padding: 0;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.central-button {
+  padding: 10px 30px;
+  font-size: 16px;
+  color: white;
+  background-color: #262624a0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.central-button:hover {
+  background-color: #ebd82e;
+  color: black;
+  transform: scale(1.2);
 }
 
