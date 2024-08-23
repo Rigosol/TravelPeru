@@ -1,7 +1,6 @@
 import React from 'react';
 import Menu from './componente/Menu';
 
-
 function App() {
   return (
     <div>
