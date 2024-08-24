@@ -1,8 +1,8 @@
 import React from 'react';
-import '../App.css';
+import '../Menuitems.css';
 
 function Smenu() {
-    return ( q
+    return ( 
       <header>
         <div className="menu-container">
           <a href="#" className="menu-item">Montaña 7 colores</a>

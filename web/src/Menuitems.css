@@ -1,0 +1,34 @@
+/* Estilos del contenedor principal para centrar el menú en la parte superior */
+body {
+    margin: 0; /* Elimina los márgenes por defecto del navegador */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: flex-start; /* Alinea en la parte superior */
+    height: 100vh; /* Altura completa de la ventana */
+    background-color: #f0f0f0; /* Color de fondo para la página, opcional */
+  }
+  
+  /* Modifica el contenedor del menú */
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 10px; /* Espacio entre los elementos */
+    justify-items: center; /* Centra los elementos dentro de cada columna */
+    background-color: #000080; /* Azul oscuro */
+    padding: 10px;
+    margin-top: 20px; /* Espacio desde la parte superior */
+  }
+  
+  /* Estilos de los elementos del menú */
+  .menu-item {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: transparent; /* Fondo transparente por defecto */
+  }
+  
+  .menu-item:hover {
+    background-color: #FFA500; /* Color naranja al pasar el mouse */
+  }

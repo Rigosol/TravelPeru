@@ -1,14 +1,14 @@
 import React from 'react';
 import Menu from '../componente/Menu'
 import Banners from '../componente/banners'
-import Smenu from '../componente/Smenu';
+import Menuitems from '../componente/Menuitems';
 
 function salidas() {
   return (
     <div>
         <Menu />
         <Banners />
-        <Smenu />
+        <Menuitems />
         {/* Aquí puedes agregar más contenido si es necesario */}
     </div>
   );
