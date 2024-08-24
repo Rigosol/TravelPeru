@@ -14,10 +14,12 @@ header {
   border-bottom: 2px solid #ddd;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 0px;
+  right: 0px;
   z-index: 1000;
 }
+
+
 
 .logo {
   display: flex;
@@ -50,6 +52,7 @@ header {
 }
 
 .search-bar {
+  margin-right: 40px;
   display: flex;
   align-items: center;
 }
@@ -112,4 +115,89 @@ header {
 
 
 /* CSS DE LUIS BANNER FIN  */
+
+/* CSS cuerpo LUIS  */
+
+.Producto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 40px);
+  max-width: calc(33.333% - 40px);
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+
+.gallery-item:hover {
+  transform: translateY(-10px);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-item:hover p {
+  color: #ff9500;
+}
+
+.guides {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.guides h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.guide-card {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+}
+
+.guide-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.guide-info p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+.imagen00 {
+  width: 140px;
+  height: 140px;
+}
 
