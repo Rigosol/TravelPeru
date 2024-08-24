@@ -1,7 +1,7 @@
 import React from 'react';
-import Menu from './componente/Menu'
-import Banners from './componente/banners'
-import Smenu from './componente/Smenu';
+import Menu from '../componente/Menu'
+import Banners from '../componente/banners'
+import Smenu from '../componente/Smenu';
 
 function salidas() {
   return (
