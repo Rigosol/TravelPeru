@@ -12,41 +12,41 @@ function Cuerpo() {
             <p>Montaña 7 colores</p>
           </div>
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="Palccoyo" />
+            <img src="src/componente/imageLUIS/image2.jpeg" alt="Palccoyo" />
             <p>Palcoyo</p>
           </div>
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="Pallay poncho" />
+            <img src="src/componente/imageLUIS/image3.jpeg" alt="Pallay poncho" />
             <p>Pallay poncho</p>
           </div>
         </div>
 
         <div className="Producto">
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="Laguna de huamantay" />
+            <img src="src/componente/imageLUIS/image4.jpeg" alt="Laguna de huamantay" />
             <p>Laguna de huamantay</p>
           </div>
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="Aguas termales chimur" />
+            <img src="src/componente/imageLUIS/image5.jpeg" alt="Aguas termales chimur" />
             <p>Aguas termales chimur</p>
           </div>
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="Laguna de Huarcapay" />
+            <img src="src/componente/imageLUIS/image6.jpeg" alt="Laguna de Huarcapay" />
             <p>Laguna de Huarcapay</p>
           </div>
         </div>
 
         <div className="Producto">
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="waqrapukara" />
+            <img src="src/componente/imageLUIS/image7.jpeg" alt="waqrapukara" />
             <p>waqrapukara</p>
           </div>
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="Valle Sagrado" />
+            <img src="src/componente/imageLUIS/image8.jpeg" alt="Valle Sagrado" />
             <p>Valle Sagrado</p>
           </div>
           <div className="gallery-item">
-            <img src="src/componente/imageLUIS/image1.png" alt="Salineras - Maras" />
+            <img src="src/componente/imageLUIS/image9.jpeg" alt="Salineras - Maras" />
             <p>Salineras - Maras</p>
           </div>
         </div>
