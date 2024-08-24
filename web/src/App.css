@@ -79,7 +79,7 @@ header {
 .carousel-container {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 650px;
   overflow: hidden;
 }
 
@@ -124,6 +124,7 @@ header {
   justify-content: center;
   gap: 20px;
   max-width: 1200px;
+  margin-left: 330px;
 }
 
 
@@ -201,3 +202,4 @@ header {
   height: 140px;
 }
 
+/* CSS FIN cuerpo LUIS  */
