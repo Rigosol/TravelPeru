@@ -9,7 +9,7 @@ function Menu() {
         <h1 style={{ color: '#A020F0' }}>Peru<span style={{ color: '#FF8000' }}>Travel</span></h1>
       </div>
       <div className="menu-container">
-        <a href="./App" className="menu-item">Inicio</a>
+        <a href="../App" className="menu-item">Inicio</a>
         <a href="../pagina/salidas" className="menu-item">Salidas diarias</a>
         <a href="#" className="menu-item">Full day</a>
         <a href="#" className="menu-item">Promos</a>
