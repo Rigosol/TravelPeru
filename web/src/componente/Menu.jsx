@@ -13,7 +13,7 @@ function Menu() {
         <a href="../pagina/salidas" className="menu-item">Salidas diarias</a>
         <a href="../pagina/fullday" className="menu-item">Full day</a>
         <a href="../pagina/promos" className="menu-item">Promos</a>
-        <a href="../pagina/contacto" className="menu-item">Contacto</a>
+        <a href="contacto" className="menu-item">Contacto</a>
       </div>
       <div className="search-bar">
         <input type="text" placeholder="Buscar" />
