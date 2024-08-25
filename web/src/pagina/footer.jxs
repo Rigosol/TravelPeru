@@ -1,0 +1,28 @@
+   <footer>
+                    <h1><span class="text-white">TRAVEL PERÚ</h1>
+                    <p>Crea su cita con anticipación y disfrute muchos días de vacaciones.</p>
+                    <h5 >Enlaces útiles</h5>
+                    <div>
+                        <ul id="Cabeza">
+                            <a href="Pagina.html" class="Lista2"><li id="Lista">Inicio</li></a>
+                            <a href="Salidas.html" class="Lista2"><li id="Lista">Salidas diarias</li></a>
+                            <a href="fullday.html" class="Lista2"><li id="Lista">Full day</li></a>
+                            <a href="promos.html" class="Lista2"><li id="Lista">Promos</li></a>
+                            <a href="Contacto.html" class="Lista2"><li id="Lista">Contacto</li></a>
+                        </ul>
+                        <h5 class="text-white">Contacto</h5>
+                        <p>Tacna-Peru</p>
+                        <p>+012 345 67890</p>
+                        <p>info@travelperu.com</p>
+                        <h6 class="text-white" style="letter-spacing: 0px;">Hoja informativa</h6>
+
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="escriba el Email">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary px-3">Incribirse</button>
+                            </div>
+
+                            <div >
+                                <p>&copy; 2024 Perutravel. Todos los derechos reservados.</p>
+                            </div>
+
+                        </footer>
