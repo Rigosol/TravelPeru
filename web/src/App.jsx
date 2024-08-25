@@ -3,6 +3,7 @@ import Menu from './componente/Menu';
 import Banner from './componente/banners';
 import Cuerpo from './componente/Cuerpo';
 import Salidas from './pagina/Salidas';
+import Fullday from './pagina/Fullday';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Salidas id="salidas" />
         <Salidas />
         <hr />
+      <Fullday id="Fullday" />
+        <Fullday />
     </div>
   );
 }
