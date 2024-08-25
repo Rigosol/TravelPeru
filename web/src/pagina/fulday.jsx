@@ -1,4 +1,5 @@
-import {Fragment} from 'react';
+
+import React from 'react';
 import Menu from '../componente/Menu'
 import Banner from'../componente/banners' 
 import '../pagina/fullday.css';
@@ -18,7 +19,6 @@ function fulday() {
         <Menu />
         <Banner/>
         
-
     <div className='section'>
     
             <select class="custom-select px-4" style="height: 47px;">
@@ -116,7 +116,8 @@ function fulday() {
                     </div>
     </div>   
     </div>         
-
+    <h1>TRAVEL PERÚ</h1>
+    <p>Crea su cita con anticipación y disfrute muchos días de vacaciones.</p>
                     <footer />
      
                     </>
