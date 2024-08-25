@@ -10,8 +10,11 @@ function App() {
       <Menu />
       <Banner />
       <Cuerpo />
-      <Salidas />
-
+      {/* Línea horizontal antes de Salidas */}
+      <hr />
+      <Salidas id="salidas" />
+        <Salidas />
+        <hr />
     </div>
   );
 }
