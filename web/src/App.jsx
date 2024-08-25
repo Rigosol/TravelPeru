@@ -13,13 +13,18 @@ function App() {
       <Cuerpo />
       {/* Línea horizontal antes de Salidas */}
       <hr />
-      <Salidas id="salidas" />
+      <div id="salidas">
         <Salidas />
-        <hr />
-      <Fullday id="Fullday" />
+      </div>
+      {/* Línea horizontal antes de Salidas */}
+      <hr />
+      <div id="Fullday">
         <Fullday />
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
