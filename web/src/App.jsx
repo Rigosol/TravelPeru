@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from './componente/Menu';
 import Banner from './componente/banners';
 import Cuerpo from './componente/Cuerpo';
+import Salidas from './pagina/Salidas';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Menu />
       <Banner />
       <Cuerpo />
+      <Salidas />
 
     </div>
   );
