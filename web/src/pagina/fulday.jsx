@@ -1,26 +1,31 @@
 import React from 'react';
+import '../componente/Menu'
+import '../componente/banners'
 import '../pagina/fullday.css';
+import Banner from '../componente/IMAGENES/banner 2.jpg'
+
 
 function fulday() {
-    return (
+    
         <body>
-    <div>
+    
     <header>
 
         <ul id="Cabeza">
             <h1>TRAVEL PERÚ</h1>
-            <a href="Pagina.html" class="Lista2"><li id="Lista">Inicio</li></a>
-            <a href="Salidas.html" class="Lista2"><li id="Lista">Salidas diarias</li></a>
-            <a href="fullday.html" class="Lista2"><li id="Lista">Full day</li></a>
-            <a href="promos.html" class="Lista2"><li id="Lista">Promos</li></a>
-            <a href="Contacto.html" class="Lista2"><li id="Lista">Contacto</li></a>
+            <a href="../componente/Cuerpo.jsx" class="Lista2"><li id="Lista">Inicio</li></a>
+            <a href="../pagina/salidas.jsx" class="Lista2"><li id="Lista">Salidas diarias</li></a>
+            <a href="../pagina/fulday.jsx" class="Lista2"><li id="Lista">Full day</li></a>
+            <a href="../pagina/promos.jsx" class="Lista2"><li id="Lista">Promos</li></a>
+            <a href="../pagina/Contacto.jxs" class="Lista2"><li id="Lista">Contacto</li></a>
 
         </ul>     
                      
     </header>
-</header>
+
 <section class="banner">
-    <img src="../IMAGENES/banner 2.jpg" alt="Banner">
+    
+    <img src={Banner} alt="Banner" alt= 'Banner'>
     <div class="button-container">
         <button class="central-button">Reservar</button>
     </div>
@@ -156,7 +161,7 @@ function fulday() {
       
 </div>
 </body>
+
     );
 }
 
-export default PromoCard;
