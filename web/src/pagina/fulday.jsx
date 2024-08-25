@@ -1,8 +1,7 @@
-import React from 'react';
-import '../componente/Menu'
-import '../componente/banners'
+import {Fragment} from 'react';
+import Menu from '../componente/Menu'
+import Banner from'../componente/banners' 
 import '../pagina/fullday.css';
-import Banner from '../componente/IMAGENES/banner 2.jpg'
 import team1 from '../componente/IMAGENES/team-1.jpg'
 import team2 from '../componente/IMAGENES/team-2.jpg'
 import team3 from '../componente/IMAGENES/team-3.jpg'
@@ -10,36 +9,18 @@ import tes1 from '../componente/IMAGENES/testimonial-1.jpg'
 import tes2 from '../componente/IMAGENES/testimonial-2.jpg'
 import tes3 from '../componente/IMAGENES/testimonial-3.jpg'
 import tes4 from '../componente/IMAGENES/testimonial-4.jpg'
+import footer from '../pagina/footer.jxs'
+import js from '../pagina/fullday.js'
 
 function fulday() {
+    return(
+     <>
+        <Menu />
+        <Banner/>
+        
 
-    <body>
-
-        <header>
-
-            <ul id="Cabeza">
-                <h1>TRAVEL PERÚ</h1>
-                <nav>
-                    <a href="../componente/Cuerpo.jsx" class="Lista2"><li id="Lista">Inicio</li></a>
-                    <a href="../pagina/salidas.jsx" class="Lista2"><li id="Lista">Salidas diarias</li></a>
-                    <a href="../pagina/fulday.jsx" class="Lista2"><li id="Lista">Full day</li></a>
-                    <a href="../pagina/promos.jsx" class="Lista2"><li id="Lista">Promos</li></a>
-                    <a href="../pagina/Contacto.jxs" class="Lista2"><li id="Lista">Contacto</li></a>
-                </nav>
-            </ul>
-
-        </header>
-
-        <section className="banner">
-            <img src={Banner} alt="Banner" />
-
-            <div className="button-container">
-                <button className="central-button">Reservar</button>
-            </div>
-
-
-        </section>
-        <section>
+    <div className='section'>
+    
             <select class="custom-select px-4" style="height: 47px;">
                 <option selected>Destino</option>
                 <option value="1">Montaña de 7 colores</option>
@@ -54,10 +35,10 @@ function fulday() {
             </select>
             <div class="date-selection">
                 <label for="depart-date">Fecha de Inicio:</label>
-                <input type="date" id="depart-date" min="">
+                <input type="date" id="depart-date" min=""/>
                     <label for="return-date">Fecha de Fin:</label>
-                    <input type="date" id="return-date" min="">
-                    </div>
+                    <input type="date" id="return-date" min=""/>
+          </div>       
 
                     <button onclick="calculateDuration()">Calcular</button>
 
@@ -65,10 +46,15 @@ function fulday() {
                         <p id="duration-result"></p>
                         <p id="price-result"></p>
                     </div>
+        
+        
+   </div>
 
-                </section>
 
-                <section>
+
+   <div className='section'>
+        <div className='section div'>
+
 
                     <h1>Tours y servicios de viajes</h1>
 
@@ -92,72 +78,49 @@ function fulday() {
                         <section className="team3"/>
                         <img src={team3} style="width: 100px; height: 100px;" />
                     </div>
-                </section>
-                <section>
+      </div>      
+      </div>
+      <div className='section'>   
+      <div className='section div'>     
                     <h1>¿Qué dicen nuestros clientes?</h1>
 
                     <div>
 
-                    <section className="team3"/>
-                    <img src={team3} style="width: 100px; height: 100px;" />
+                    <section className="tes1"/>
+                    <img src={tes1} style="width: 100px; height: 100px;" />
                             <p >Me parecio fantástico conocer mas de mi PERÚ querido, fue estupendo...
                             </p>
                             <h5 >Juan Flores</h5>
                     </div>
 
                     <div>
-                    <section className="team3"/>
-                    <img src={team3} style="width: 100px; height: 100px;" />
+                    <section className="tes2"/>
+                    <img src={tes2} style="width: 100px; height: 100px;" />
                             <p >Hay , yo vine para relajame y eso hize . me tome muchas fotos. me gustoooooo ....
                             </p>
                             <h5 >Susy Días</h5>
                     </div>
                     <div>
-                        <img src="../IMAGENES/testimonial-3.jpg" style="width: 100px; height: 100px;" >
+                    <section className="tes3"/>
+                    <img src={tes3} style="width: 100px; height: 100px;" />
                             <p>La atención fue increible desde el primer momento en que viaje y llegue al hotel. y luego el guia turistico nos hablo más de lugar puede aprender más. las personas tiene un trato agradable.
                             </p>
                             <h5 >Jorge Alay</h5>
                     </div>
                     <div>
-                        <img src="../IMAGENES/testimonial-4.jpg" style="width: 100px; height: 100px;" >
+                    <section className="tes4"/>
+                    <img src={tes4} style="width: 100px; height: 100px;" />
                             <p >Gracias a este viaje me inspiré, para lograr una nueva canción. me gusto conocer el país de PERÚ.
                             </p>
                             <h5 class="text-truncate">Pablo Alborán</h5>
                     </div>
-                </section>
+    </div>   
+    </div>         
 
-             
-                    </div>
-                    <footer>
-                    <h1><span class="text-white">TRAVEL PERÚ</h1>
-                    <p>Crea su cita con anticipación y disfrute muchos días de vacaciones.</p>
-                    <h5 >Enlaces útiles</h5>
-                    <div>
-                        <ul id="Cabeza">
-                            <a href="Pagina.html" class="Lista2"><li id="Lista">Inicio</li></a>
-                            <a href="Salidas.html" class="Lista2"><li id="Lista">Salidas diarias</li></a>
-                            <a href="fullday.html" class="Lista2"><li id="Lista">Full day</li></a>
-                            <a href="promos.html" class="Lista2"><li id="Lista">Promos</li></a>
-                            <a href="Contacto.html" class="Lista2"><li id="Lista">Contacto</li></a>
-                        </ul>
-                        <h5 class="text-white">Contacto</h5>
-                        <p>Tacna-Peru</p>
-                        <p>+012 345 67890</p>
-                        <p>info@travelperu.com</p>
-                        <h6 class="text-white" style="letter-spacing: 0px;">Hoja informativa</h6>
-
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="escriba el Email">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary px-3">Incribirse</button>
-                            </div>
-
-                            <div >
-                                <p>&copy; 2024 Perutravel. Todos los derechos reservados.</p>
-                            </div>
-
-                        </footer>
-                </body>
-
+                    <footer />
+     
+                    </>
                 );
 }
 
+export default fulday;

@@ -11,7 +11,7 @@ function Menu() {
       <div className="menu-container">
         <a href="./App" className="menu-item">Inicio</a>
         <a href="../pagina/salidas" className="menu-item">Salidas diarias</a>
-        <a href="../pagina/fullday" className="menu-item">Full day</a>
+        <a href="../pagina/fulday" className="menu-item">Full day</a>
         <a href="../pagina/promos" className="menu-item">Promos</a>
         <a href="contacto" className="menu-item">Contacto</a>
       </div>
