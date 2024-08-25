@@ -89,20 +89,25 @@ function fulday() {
                     <div >
                         <h5 >Reserva de Hotel</h5>
                         <p >El horario de ocupación de las habitaciones depende de las normas establecidas en cada país y por cada proveedor. Por lo general, la habitación puede ocuparse a partir de las catorce horas del día de llegada y debe desalojarse antes de las doce horas del día de salida, con independencia de la hora en que esté prevista la llegada al hotel o de la hora en que esté prevista la continuación del viaje.comunicarse a este número para la reserva de hotel .+51 006 007 008.</p>
-                        <img src="../IMAGENES/team-3.jpg" style="width: 100px; height: 100px;" >
+                        <section className="team3"/>
+                        <img src={team3} style="width: 100px; height: 100px;" />
                     </div>
                 </section>
                 <section>
                     <h1>¿Qué dicen nuestros clientes?</h1>
+
                     <div>
-                        <img src="../IMAGENES/testimonial-1.jpg" style="width: 100px; height: 100px;" >
+
+                    <section className="team3"/>
+                    <img src={team3} style="width: 100px; height: 100px;" />
                             <p >Me parecio fantástico conocer mas de mi PERÚ querido, fue estupendo...
                             </p>
                             <h5 >Juan Flores</h5>
                     </div>
 
                     <div>
-                        <img src="../IMAGENES/testimonial-2.jpg" style="width: 100px; height: 100px;" >
+                    <section className="team3"/>
+                    <img src={team3} style="width: 100px; height: 100px;" />
                             <p >Hay , yo vine para relajame y eso hize . me tome muchas fotos. me gustoooooo ....
                             </p>
                             <h5 >Susy Días</h5>
