@@ -1,0 +1,77 @@
+.salidas-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .salidas-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header-image {
+    width: 40%;
+    border-radius: 8px;
+  }
+  
+  .salidas-pricing {
+    width: 55%;
+    text-align: right;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+    margin: 5px 0;
+  }
+  
+  .price span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #555;
+  }
+  
+  .reservar-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reservar-button:hover {
+    background-color: #218838;
+  }
+  
+  .salidas-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .salidas-column {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #dc3545;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  p, li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
