@@ -3,9 +3,9 @@ import '../App.css';
 
 function Banners() {
   const images = [
-    '../img/BANNER1.jpg',
-    '../img/BANNER2.jpg',
-    '../img/BANNER3.jpg',
+    '/src/img/BANNER1.jpg',
+    '/src/img/BANNER2.jpg',
+    '/src/img/BANNER3.jpg',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
