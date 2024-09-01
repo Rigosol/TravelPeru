@@ -54,28 +54,28 @@ return (
 <section className="guides">
 <h2>Nuestros guías</h2>
 <div className="guide-card">
-<img src="../IMAGENES/GUIAS/guia.jpg" alt="Pablo Aldebaran" className="imagen00" />
+<img src="src/img/Empleado1.avif" alt="Pablo aldebaran" className="imagen00" />
 <div className="guide-info">
 <h3>Pablo Aldebaran</h3>
 <p>Lic. Turismo</p>
 </div>
 </div>
 <div className="guide-card">
-<img src="../IMAGENES/GUIAS/profesor.jpg" alt="Wilian Walas" className="imagen00" />
+<img src="src/img/Empleado2.jpg" alt="Williams Walas" className="imagen00" />
 <div className="guide-info">
 <h3>Wilian Walas</h3>
 <p>Historiador</p>
 </div>
 </div>
 <div className="guide-card">
-<img src="../IMAGENES/GUIAS/medico.jpg" alt="Rosmery Palacios" className="imagen00" />
+<img src="src/img/Empleado4.jpg" alt="Gaston Acurio" className="imagen00" />
 <div className="guide-info">
-<h3>Rosmery Palacios</h3>
+<h3>Gaston Acurio</h3>
 <p>Médico</p>
 </div>
 </div>
 <div className="guide-card">
-<img src="../IMAGENES/GUIAS/cordinador.jpg" alt="Andres Lujan" className="imagen00" />
+<img src="src/img/Empleado3.png" alt="Andres Lujan<" className="imagen00" />
 <div className="guide-info">
 <h3>Andres Lujan</h3>
 <p>Coordinador</p>
