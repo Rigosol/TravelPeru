@@ -17,7 +17,7 @@ function Registro() {
 
         // Validación de campos
         if (!formData.nombres && !formData.email && !formData.telefono) {
-            setError("Por favor, completa los campos obligatorios.");
+            setError("Por favor, completa los campos obligatorioss.");
             return;
         }
 
