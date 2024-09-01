@@ -1,0 +1,35 @@
+.text_r {
+    font-size: 20px;
+}
+
+#ayuda_glb {
+    background-color: gray(105, 105, 105, 0.744);
+    color: white;
+    margin: 10px 20% 50px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.input_mode {
+    width: 100%;
+    height: 30px;
+    color: gray;
+    background-color: rgb(240, 179, 64);
+    padding: 0px 5px;
+}
+
+.ayuda {
+    padding: 5px;
+}
+
+.ayuda textarea{
+    height: 100px;
+}
+
+.ayuda button{
+    color: rgba(0, 0, 0, 0.744);
+    background-color: rgb(255, 166, 0);
+    margin: 3px;
+    border-radius: 10px;
+}

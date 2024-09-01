@@ -14,7 +14,7 @@ function Menu() {
         <Link to="salidas" smooth={true} duration={500} className="menu-item">Salidas diarias</Link>
         <Link to="Fullday" smooth={true} duration={500} className="menu-item">Full day</Link>
         <Link to="../pagina/promos" className="menu-item">Promos</Link>
-        <Link to="contacto" className="menu-item">Contacto</Link>
+        <Link to="Contactos" smooth={true} duration={500} className="menu-item">Contactos</Link>
       </div>
       <div className="search-bar">
         <input type="text" placeholder="Buscar" />
