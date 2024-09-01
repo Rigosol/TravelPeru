@@ -1,6 +1,10 @@
    
+import React from 'react';
 import '../pagina/fullday.css';
 
+const footer = () {
+  return (
+    <> 
 
                     <h1><span class="text-white">TRAVEL PERÚ</h1>
                     <p>Crea su cita con anticipación y disfrute muchos días de vacaciones.</p>
@@ -27,5 +31,8 @@ import '../pagina/fullday.css';
                             <div >
                                 <p>&copy; 2024 Perutravel. Todos los derechos reservados.</p>
                             </div>
+         </>
+   );
+}
 
-                        
+export default footer;                     
